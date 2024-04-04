@@ -10,3 +10,6 @@ This outlines setup instructions and usage instructions
 - Install the micropython-urllib.urequest by going into Thonny and then package manager
 - Configure `WIFI_CONFIG.py` and copy across `network_manager.py` to the Pico
 
+# recent_energy.py
+- Loads in recent energy and demonstrates how to output this to the Pico eInk Display.
+- Reloads every 60 seconds
