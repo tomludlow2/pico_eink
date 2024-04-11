@@ -39,9 +39,9 @@ def draw_custom_graph(graph_data, LABEL, graphics):
         graphics.text(str(x_coord), label_x, label_y, 2)
     
     # Draw the y-axis labels
-    graphics.text("0", MARGIN_LEFT - 20, MARGIN_TOP + CHART_HEIGHT + 2, 2)  # Label for 0%
-    graphics.text("{:.2f}".format(max_y / 2), MARGIN_LEFT - 40, MARGIN_TOP + CHART_HEIGHT // 2 + 2, 2)  # Label for 50%
-    graphics.text("{:.2f}".format(max_y), MARGIN_LEFT - 40, MARGIN_TOP, 2)  # Label for 100%
+    graphics.text("0", MARGIN_LEFT - 26, MARGIN_TOP + CHART_HEIGHT + 2, 2)  # Label for 0%
+    graphics.text("{:.1f}".format(max_y / 2), MARGIN_LEFT - 46, MARGIN_TOP + CHART_HEIGHT // 2 + 2, 2)  # Label for 50%
+    graphics.text("{:.1f}".format(max_y), MARGIN_LEFT - 46, MARGIN_TOP, 2)  # Label for 100%
     
     # Draw the label at the top left
     graphics.text(LABEL, 2, 2, 2)
